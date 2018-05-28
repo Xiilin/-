@@ -13,21 +13,11 @@ public:
 	void display();
 	void conversion(int a, int b);
 	CFeet operator +(CFeet & ojbk);
-
-
 private:
 	int feet;
 	int inch;
 
 };
-
-CFeet::CFeet()
-{
-}
-
-CFeet::~CFeet()
-{
-}
 
 void CFeet::display()
 {
